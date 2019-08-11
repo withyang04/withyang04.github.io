@@ -62,5 +62,5 @@ int main(){
 	if (n == 0 && q == 0)return 0;
 	    else init();
 	}	
-	}
+}
 ```
