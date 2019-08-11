@@ -7,11 +7,11 @@ tags: [UVA,sort]
 comments: true
 ---
 
-# 前排表白
+# 前排表白小李
 
 # 不得不说这个题是我第一个A掉的UVA题，~~这题好水~~
 
-## 前排嘲讽前缀自动机'宋各种WA
+## 前排挂前缀自动机宋各种WA
 
 ## 题目描述
 
@@ -35,7 +35,8 @@ comments: true
 ## 代码很简单
 
 	```
-	#include <bits/stdc++.h>
+	
+    #include <bits/stdc++.h>
 	#define maxn 10001
 	using namespace std;
 	int a[maxn],n,q,sum;
@@ -64,4 +65,5 @@ comments: true
 			else init();
 		}	
 	}
-```
+    
+    ```
