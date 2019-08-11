@@ -34,33 +34,33 @@ comments: true
 
 ## 代码很简单
 ```cpp
-    #include <bits/stdc++.h>
-	#define maxn 10001
-	using namespace std;
-	int a[maxn],n,q,sum;
-	inline int find(int x){
-		for (int j = 1;j <= n;++j){
-			if (x == a[j])return j;
-		}
-		return 0;
+#include <bits/stdc++.h>
+#define maxn 10001
+using namespace std;
+int a[maxn],n,q,sum;
+inline int find(int x){
+	for (int j = 1;j <= n;++j){
+		if (x == a[j])return j;
 	}
-	void init(){
-		sum++;
-		cout <<"CASE# " <<sum <<":"<<endl;
-		for (int i = 1;i <= n;++i)cin >> a[i];
-		sort (a+1,a+n+1);
-		for (int i = 1;i <= q;++i){
-			int x;
-			cin >> x;
-			if(!find(x))cout << x << " not found"<<endl;
-			else cout << x << " found at " << find(x)<<endl;
-		}
+	return 0;
+}
+void init(){
+	sum++;
+	cout <<"CASE# " <<sum <<":"<<endl;
+	for (int i = 1;i <= n;++i)cin >> a[i];
+	sort (a+1,a+n+1);
+	for (int i = 1;i <= q;++i){
+		int x;
+		cin >> x;
+		if(!find(x))cout << x << " not found"<<endl;
+		else cout << x << " found at " << find(x)<<endl;
 	}
-	int main(){
-		while(1){
-			cin >> n >> q;
-			if (n == 0 && q == 0)return 0;
-			else init();
-		}	
+}
+int main(){
+	while(1){
+	cin >> n >> q;
+	if (n == 0 && q == 0)return 0;
+	    else init();
+	}	
 	}
 ```
