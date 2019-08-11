@@ -33,9 +33,7 @@ comments: true
 ## ~~以上自己去百度翻译~~
 
 ## 代码很简单
-
-	```
-	
+```cpp
     #include <bits/stdc++.h>
 	#define maxn 10001
 	using namespace std;
@@ -65,5 +63,4 @@ comments: true
 			else init();
 		}	
 	}
-    
-    ```
+```
