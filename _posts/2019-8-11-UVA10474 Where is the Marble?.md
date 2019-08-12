@@ -3,11 +3,9 @@ layout: post
 title: " UVA10474 Where is the Marble? "
 date: 2019-8-11
 excerpt: "Find + Sort"
-tags: [UVA,sort]
+tags: [UVA]
 comments: true
 ---
-
-# 前排表白小李
 
 # 不得不说这个题是我第一个A掉的UVA题，~~这题好水~~
 
