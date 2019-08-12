@@ -1,8 +1,6 @@
 ---
 layout: page
-title: About Me
-tags: [Links]
-date: 2019-08-12
+title: Links & Friends
 comments: true
 ---
 
