@@ -1,0 +1,63 @@
+---
+layout: post
+title: "Noip2002 产生数"
+date: 2019-08-16
+excerpt: "Floyed"
+tags: [Noip]
+comments: true
+---
+## 唔......又考试了
+
+## 这次除了最后一题是个蓝题 ~~（我觉得是并查集）~~，但实际上是道DP
+
+## 别的都挺水的
+
+## 前三题WA了不应该啊(昨天前缀自动机·宋刚讲的)
+
+------
+
+## 言归正传
+
+## 说说这道题
+
+## 我一开始一看题面觉得是道搜索题
+
+## ~~但是实际上是道Floyed~~
+
+## 本题一共有两个难点，第一个就是求出每一位的数字可以转换成的数字的个数。
+
+## 这一点可以用最短路径中的floyd来实现，用二维数组a[i,j]来表示数字i是否可以转换为数字j，最后进行累加统计,最后乘起来即可。
+
+```cpp
+#include <bits/stdc++.h>
+#define maxn 10//开到10是因为一共有10个<10的数字
+using namespace std;
+string n;
+int k,vis[maxn][maxn],f[maxn],num[maxn*10],ans = 1;
+int main(){
+	cin >> n >> k;
+	for (int i = 1,a,b;i <= k;++i){
+		cin >> a >> b;
+		vis[a][b] = 1; 
+     //二维数组存图表示可以从a变成b
+	}
+	for (int i = 0;i <= 9;++i)vis[i][i] = 1;
+   //不要忽略自己变成自己这种
+  	for (int k = 0;k <= 9;++k)
+    	for (int i = 0;i <= 9;++i)
+      		for (int j = 0;j <= 9;++j) 
+			  	vis[i][j] = vis[i][j] || (vis[i][k] && vis[k][j]);
+	//Floyed求最短路
+    for (int i = 0;i <= 9;++i)
+    	for (int j = 0;j <= 9;++j)
+      		if (vis[i][j]) f[i]++;
+				//求出i可以变成多少种数字
+    for (int i = 0;i <= 9;++i)
+		ans *= f[i];//乘起来
+	cout << ans;
+}
+```
+
+## 虽然我喜欢用Dijkstra 和 SPFA 但不得不说的是
+
+# Floyed真棒
