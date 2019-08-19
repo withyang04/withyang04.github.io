@@ -12,7 +12,7 @@ url:                https://LLLinea.github.io
 
 # Jekyll
 permalink:          /:title/
-markdown:           kramdown
+markdown:           Hexodown
 highlighter:        rouge
 kramdown:
   auto_ids:         true
