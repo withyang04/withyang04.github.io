@@ -2,8 +2,8 @@
 layout: post
 title: "USACO Watering Hole"
 date: 2019-08-20
-excerpt: "数论"
-tags: [Luogu]
+excerpt: "Kruskal"
+tags: [USACO]
 comments: true
 ---
 ### ~~机房模拟赛10分的窝~~
