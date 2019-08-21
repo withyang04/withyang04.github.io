@@ -1,14 +1,14 @@
 # Site
 title:              顧然
-bio:                '<font face="黑体">Inea.</font>'
-description:        "<font face='黑体'>最是人间留不住，朱颜辞镜花辞树</font>"
+bio:                '<font face="黑体">红颜祸水.</font>'
+description:        "<font face='黑体'>你是我未曾拥有无法捕捉的亲昵</font>"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://LLLia.github.io
+url:                https://LLLinea.github.io
 # Jekyll
 permalink:          /:title/
 markdown:           Hexodown
