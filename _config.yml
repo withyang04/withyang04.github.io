@@ -1,14 +1,14 @@
 # Site
-title:              顧然
-bio:                '<font face="黑体">红颜祸水.</font>'
-description:        "<font face='黑体'>你是我未曾拥有无法捕捉的亲昵</font>"
+title:              顧溫順
+bio:                '<font face="黑体">Docile-Gu</font>'
+description:        "<font face='黑体'>最是人间留不住 朱颜辞镜花辞树</font>"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://LLLinea.github.io
+url:                https://Docile-Gu.github.io
 # Jekyll
 permalink:          /:title/
 markdown:           Hexodown
@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   LLLinea
+disqus_shortname:   Docile-Gu
 #taylantatli
 
 # Social
@@ -41,7 +41,7 @@ disqus_shortname:   LLLinea
 #email:
 twitter:            username
 facebook:           username
-github-url:         lllinea
+github-url:         Docile-Gu
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
