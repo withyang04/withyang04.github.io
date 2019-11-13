@@ -26,11 +26,11 @@ comments: true
 
 ## 不能像某个巨佬一样今年不自信了
 
-![]https://cdn.luogu.com.cn/upload/image_hosting/b2kgukua.png?x-oss-process=image/resize,m_lfit,h_170,w_225
+![](https://cdn.luogu.com.cn/upload/image_hosting/b2kgukua.png?x-oss-process=image/resize,m_lfit,h_170,w_225)
 
 ## 进场放平心态保持AK姿态OWO
 
-![]https://cdn.luogu.com.cn/upload/image_hosting/w1t6gb5p.png?x-oss-process=image/resize,m_lfit,h_170,w_225
+![](https://cdn.luogu.com.cn/upload/image_hosting/w1t6gb5p.png?x-oss-process=image/resize,m_lfit,h_170,w_225)
 
 # 二.代码
 
