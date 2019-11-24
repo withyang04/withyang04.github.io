@@ -73,5 +73,8 @@ gems:
 jekyll-mentions:
     base_url: https://github.com
 
+# Fireworks
+fireworks: true
+
 # Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, love.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js,fireworks.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
