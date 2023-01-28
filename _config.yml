@@ -1,7 +1,7 @@
 # Site
-title:              _Grey
+title:              炀
 bio:                '<font face="黑体">永恒</font>'
-description:        "<font face='黑体'>可惜故事太长只有风在听我讲</font>"
+description:        "<font face='黑体'>高举自由大旗</font>"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   Grey-gran
+disqus_shortname:   withyang04
 #taylantatli
 
 # Social
@@ -41,7 +41,7 @@ disqus_shortname:   Grey-gran
 #email:
 #twitter:            username
 #facebook:           username
-github-url:         Grey-gran
+github-url:         withyang04
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
