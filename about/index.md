@@ -5,14 +5,5 @@ tags: [about]
 date: 2017-07-15
 comments: true
 ---
- 
-`是顾然啊`
 
-`爱OI`
-
-`人往高处走`
-
-QQ:`459342406`
-
-
-Email:`IneaQAQ@Outlook.com`
+# 一个已经退役的OIer的之前曾用博客 现在被拿来记录生活
